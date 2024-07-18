@@ -1,0 +1,14 @@
+{% extends 'text_tools/base.html' %}
+
+{% block content %}
+<h2>Reverse String</h2>
+<form method="post">
+    {% csrf_token %}
+    <textarea name="input_text" rows="5" cols="40" placeholder="Enter text to reverse"></textarea><br>
+    <button type="submit">Reverse</button>
+</form>
+{% if result %}
+    <h3>Reversed Text:</h3>
+    <p>{{ result }}</p>
+{% endif %}
+{% endblock %}

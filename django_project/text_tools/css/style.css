@@ -1,0 +1,11 @@
+/* Example CSS for Navbar */
+.navbar-nav .nav-link {
+    color: #333; /* Default link color */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Link color on hover */
+}
+
+/* Additional Custom Styles */
+/* Add your custom styles here */
